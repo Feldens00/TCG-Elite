@@ -1,0 +1,168 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="TCG_Elite.PivotTCG"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <phone:PhoneApplicationPage.Resources>
+
+        <shell:ApplicationBar x:Key="AppBar1" IsMenuEnabled="True" IsVisible="True" >
+
+            <shell:ApplicationBarIconButton IconUri="/Icons/calc.png"
+                                            Text="Calcular" Click="onClickCal"/>
+
+            <shell:ApplicationBarIconButton IconUri="/Icons/add.png"
+                                            Text="Adicionar" Click="onClickNew"/>
+            <shell:ApplicationBarIconButton IconUri="/Icons/delete.png"
+                                            Text="Deletar" Click="onClickDelete"/>
+
+
+
+
+        </shell:ApplicationBar>
+        <shell:ApplicationBar x:Key="AppBar2" IsMenuEnabled="True" IsVisible="True" >
+
+
+            <shell:ApplicationBarIconButton IconUri="/Icons/search.png"
+                                            Text="Ygo" Click="ApplicationBarIconButton_Click_1"/>
+            <shell:ApplicationBarIconButton IconUri="/Icons/search.png"
+                                            Text="Pok" Click="ApplicationBarIconButton_Click"/>
+
+
+        </shell:ApplicationBar>
+
+
+
+
+    </phone:PhoneApplicationPage.Resources>
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <!--Pivot Control-->
+        <phone:Pivot Title="TCG Elite" SelectionChanged="Pivot_SelectionChanged" >
+            <phone:Pivot.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Sem Título-3.jpg"/>
+            </phone:Pivot.Background>
+            <!--Pivot item one-->
+
+            <phone:PivotItem Header="Jogadores"  Name="jogadores">
+                <StackPanel Grid.Row="1">
+                    <ListBox Name="lstJogadores" Height="600" SelectionChanged="lstJogadores_SelectionChanged">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel VerticalAlignment="Center" >
+
+                                    <TextBlock Text="{Binding jogador1}"
+                                       FontSize="38"/>
+
+                                    <TextBlock Text="{Binding jogador2}"
+                                       FontSize="28"/>
+
+
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </StackPanel>
+            </phone:PivotItem>
+
+
+            <!--Pivot item two-->
+            <phone:PivotItem Header="Pokedex" Name="pokemon">
+                <StackPanel Grid.Row="1">
+                    <ListBox Name="lstpok" Height="600" >
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel VerticalAlignment="Center" >
+
+                                    <TextBlock FontFamily="Times New Roman" FontSize="45" Text="Name:"/>
+                                    <TextBlock Text="{Binding name}"
+                                       FontSize="28"/>
+
+                                    <TextBlock FontFamily="Times New Roman" FontSize="45" Text="Attack:"/>
+                                    <TextBlock Text="{Binding attack}"
+                                       FontSize="28"/>
+
+                                    <TextBlock FontFamily="Times New Roman" FontSize="45" Text="Defense:"/>
+                                    <TextBlock Text="{Binding defense}"
+                                       FontSize="28"/>
+
+                                    <TextBlock  FontFamily="Times New Roman" FontSize="45" Text="Evolve Level:"/>
+                                    <TextBlock Text="{Binding evolveLevel}"
+                                       FontSize="28"/>
+
+                                    <TextBlock  FontFamily="Times New Roman"  FontSize="45" Text="Evolve To:"/>
+                                    <TextBlock Text="{Binding evolveTo}"
+                                       FontSize="28"/>
+
+                                    <TextBlock  FontFamily="Times New Roman"   FontSize="45" Text="Type:"/>
+                                    <TextBlock Text="{Binding type}"
+                                       FontSize="28"/>
+
+                                    <TextBlock  FontFamily="Times New Roman"  FontSize="45" Text="Moves:"/>
+                                    <Grid>
+                                        <ListBox   ItemsSource="{Binding moves}"  >
+                                            <ListBox.ItemTemplate>
+                                                <DataTemplate>
+                                                    <StackPanel>
+                                                        <Grid>
+                                                            <TextBlock Text="{Binding}" FontSize="28"/>
+
+                                                        </Grid>
+
+                                                    </StackPanel>
+                                                </DataTemplate>
+                                            </ListBox.ItemTemplate>
+                                        </ListBox>
+                                    </Grid>
+
+                                    <TextBlock   FontFamily="Times New Roman" FontSize="45" Text="Curve:"/>
+                                    <TextBlock Text="{Binding curve}"
+                                       FontSize="28"/>
+
+
+                                    <TextBlock  FontFamily="Times New Roman" FontSize="45" Text="Level:"/>
+                                    <Grid>
+                                        <ListBox   ItemsSource="{Binding levels}"  >
+                                            <ListBox.ItemTemplate>
+                                                <DataTemplate>
+                                                    <StackPanel>
+                                                        <Grid>
+                                                            <TextBlock Text="{Binding}" FontSize="28"/>
+
+                                                        </Grid>
+
+                                                    </StackPanel>
+                                                </DataTemplate>
+                                            </ListBox.ItemTemplate>
+                                        </ListBox>
+                                    </Grid>
+
+                                    <TextBlock  FontFamily="Times New Roman" FontSize="45" Text="Probability:"/>
+                                    <TextBlock Text="{Binding probability}"
+                                       FontSize="28"/>
+                                    <TextBlock FontSize="50"  Text="______________________________________________________________________"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+
+                    </ListBox>
+                </StackPanel>
+            </phone:PivotItem>
+        </phone:Pivot>
+    </Grid>
+
+
+
+</phone:PhoneApplicationPage>

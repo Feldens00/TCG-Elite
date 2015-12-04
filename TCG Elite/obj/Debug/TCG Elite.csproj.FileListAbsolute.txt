@@ -1,0 +1,31 @@
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\Json\pok.json
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\Json\pokemon.json
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\TCG Elite.dll
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\TCG Elite.pdb
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\AppManifest.xaml
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\TCG_Elite_Debug_AnyCPU.xap
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\obj\Debug\App.g.cs
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\obj\Debug\Add.g.cs
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\obj\Debug\Browser.g.cs
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\obj\Debug\MainPage.g.cs
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\obj\Debug\NoticiasPok.g.cs
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\obj\Debug\NoticiasYgo.g.cs
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\obj\Debug\PivotTCG.g.cs
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\obj\Debug\Setings.g.cs
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\obj\Debug\TCG Elite.g.resources
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\obj\Debug\TCG_Elite.Resources.AppResources.resources
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\obj\Debug\TCG Elite.csproj.GenerateResource.Cache
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\obj\Debug\TCG Elite.dll
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\obj\Debug\TCG Elite.pdb
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\obj\Debug\XapCacheFile.xml
+C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\obj\Debug\TCG Elite.csprojResolveAssemblyReference.cache
