@@ -1,7 +1,8 @@
-﻿<xapCache source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\TCG_Elite_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="03/12/2015 22:07:16">
-  <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\obj\Debug\TCG Elite.dll" archivePath="TCG Elite.dll" lastWriteTime="03/12/2015 22:07:11" />
+﻿<xapCache source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\TCG_Elite_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="04/12/2015 17:40:23">
+  <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\obj\Debug\TCG Elite.dll" archivePath="TCG Elite.dll" lastWriteTime="04/12/2015 17:40:21" />
   <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="24/11/2015 17:01:36" />
   <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="24/11/2015 17:01:36" />
+  <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="24/11/2015 17:01:36" />
   <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="24/11/2015 17:01:36" />
   <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="24/11/2015 17:01:36" />
   <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="24/11/2015 17:01:36" />
@@ -14,16 +15,19 @@
   <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Icons\feature.png" archivePath="Icons\feature.png" lastWriteTime="30/11/2015 10:33:10" />
   <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Icons\refresh.png" archivePath="Icons\refresh.png" lastWriteTime="26/09/2015 00:39:46" />
   <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Icons\save.png" archivePath="Icons\save.png" lastWriteTime="26/09/2015 00:39:46" />
-  <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Sem Título-3.jpg" archivePath="Sem Título-3.jpg" lastWriteTime="03/12/2015 21:51:06" />
+  <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\img\add.png" archivePath="img\add.png" lastWriteTime="01/01/2013 19:57:00" />
+  <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\img\Sem Título-3.png" archivePath="img\Sem Título-3.png" lastWriteTime="04/12/2015 16:08:13" />
+  <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\img\tecelite1 cópia.png" archivePath="img\tecelite1 cópia.png" lastWriteTime="04/12/2015 15:55:35" />
   <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Tcg Elite.jpg" archivePath="Tcg Elite.jpg" lastWriteTime="03/12/2015 21:43:58" />
+  <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\tcgelite.jpg" archivePath="tcgelite.jpg" lastWriteTime="04/12/2015 16:54:30" />
   <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\tcgelite1.jpg" archivePath="tcgelite1.jpg" lastWriteTime="03/12/2015 21:59:34" />
+  <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\tecelite1 cópia.jpg" archivePath="tecelite1 cópia.jpg" lastWriteTime="04/12/2015 16:59:35" />
   <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="03/12/2015 19:41:55" />
   <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\Json\pok.json" archivePath="Json\pok.json" lastWriteTime="03/12/2015 17:52:28" />
   <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\Json\pokemon.json" archivePath="Json\pokemon.json" lastWriteTime="27/11/2015 21:06:22" />
   <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="24/11/2015 17:01:36" />
-  <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="24/11/2015 17:01:36" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Libraries\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="01/01/2013 19:57:00" />
   <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\packages\Newtonsoft.Json.7.0.1\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll" archivePath="Newtonsoft.Json.dll" lastWriteTime="24/11/2015 21:33:28" />
   <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\packages\Newtonsoft.Json.7.0.1\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.xml" archivePath="Newtonsoft.Json.xml" lastWriteTime="24/11/2015 21:33:28" />
-  <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="03/12/2015 19:41:55" />
+  <file source="C:\Users\Artur\Desktop\Ulbra\Linguagem de Programação Comercial\TCG Elite\TCG Elite\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="04/12/2015 17:40:22" />
 </xapCache>

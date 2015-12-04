@@ -47,7 +47,7 @@
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot">
         <Grid.Background>
-            <ImageBrush/>
+            <ImageBrush ImageSource="/tcgelite.jpg"/>
         </Grid.Background>
         <!--Pivot Control-->
         <phone:Pivot Title="TCG Elite" SelectionChanged="Pivot_SelectionChanged" >
@@ -58,16 +58,19 @@
 
             <phone:PivotItem Header="Jogadores"  Name="jogadores">
                 <StackPanel Grid.Row="1">
-                    <ListBox Name="lstJogadores" Height="600" SelectionChanged="lstJogadores_SelectionChanged">
+                    <ListBox x:Name="lstJogadores" Height="600" SelectionChanged="lstJogadores_SelectionChanged">
+                        <ListBox.Background>
+                            <ImageBrush Stretch="Fill" ImageSource="/tecelite1 cópia.jpg"/>
+                        </ListBox.Background>
                         <ListBox.ItemTemplate>
                             <DataTemplate>
                                 <StackPanel VerticalAlignment="Center" >
 
                                     <TextBlock Text="{Binding jogador1}"
-                                       FontSize="38"/>
+                            			FontSize="38"/>
 
                                     <TextBlock Text="{Binding jogador2}"
-                                       FontSize="28"/>
+                            			FontSize="28"/>
 
 
                                 </StackPanel>

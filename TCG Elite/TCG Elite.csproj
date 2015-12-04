@@ -170,7 +170,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
-    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\AppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\WMAppManifest.xml">
       <SubType>Designer</SubType>
     </None>
@@ -204,9 +206,13 @@
     <Content Include="Icons\feature.png" />
     <Content Include="Icons\refresh.png" />
     <Content Include="Icons\save.png" />
-    <Content Include="Sem Título-3.jpg" />
+    <Content Include="img\add.png" />
+    <Content Include="img\Sem Título-3.png" />
+    <Content Include="img\tecelite1 cópia.png" />
     <Content Include="Tcg Elite.jpg" />
+    <Content Include="tcgelite.jpg" />
     <Content Include="tcgelite1.jpg" />
+    <Content Include="tecelite1 cópia.jpg" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\AppResources.resx">
