@@ -182,6 +182,8 @@
     <Content Include="Assets\ApplicationIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\icon.png" />
+    <Content Include="Assets\tcg icon 100x100 cópia.png" />
     <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -197,6 +199,9 @@
     <Content Include="Assets\Tiles\IconicTileSmall.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Tiles\tcgeliteLarge.png" />
+    <Content Include="Assets\Tiles\tcgeliteMedium.png" />
+    <Content Include="Assets\Tiles\tcgeliteSmall.png" />
     <Content Include="Icons\add.png" />
     <Content Include="Icons\delete.png" />
     <Content Include="Icons\edit.png" />

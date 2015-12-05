@@ -20,7 +20,17 @@ namespace TCG_Elite
         }
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            myBrowser.Navigate(new Uri(pageBrowser.link, UriKind.Absolute));
+            try
+            {
+                myBrowser.Navigate(new Uri(pageBrowser.link, UriKind.Absolute));
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Selecione uma noticia");
+                NavigationService.GoBack();
+            }
+             
 
 
         }

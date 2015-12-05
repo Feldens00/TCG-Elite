@@ -61,14 +61,14 @@ namespace TCG_Elite
             {
                 if (select != null)
                 {
-                    if (MessageBox.Show("Deletar " + select.jogador1 + "   " + select.jogador2 + "?", "Atenção", MessageBoxButton.OKCancel) == MessageBoxResult.OK)
+                    if (MessageBox.Show("Deletar " + select.jogador1 + " e " + select.jogador2 + "?", "Atenção", MessageBoxButton.OKCancel) == MessageBoxResult.OK)
                     {
                         rep.Delete(select);
                         RefreshList();
                         MessageBox.Show("Dupla Excluida");
                     }
                     else
-                        MessageBox.Show("Ufa Tche");
+                        MessageBox.Show(" Deletar cancelado ");
                 }
                 else
                 {
@@ -123,13 +123,27 @@ namespace TCG_Elite
         {
             ygo= null;
 
-
-            if (select==null)
+            try
             {
-                //* so botei para n o select n passar com null  pq aqui eles n pegam os valores string so na mainpage.
-                select.jogador1 = j ;
-                select.jogador2 = j2;
+                if (select == null)
+                {
+                    //* so botei para n o select n passar com null  pq aqui eles n pegam os valores string so na mainpage.
+                    select.jogador1 = j;
+                    select.jogador2 = j2;
+                }
             }
+            catch (Exception)
+            {
+
+                
+            }
+           
+            //if (select==null)
+            //{
+            //    //* so botei para n o select n passar com null  pq aqui eles n pegam os valores string so na mainpage.
+            //    select.jogador1 = j ;
+            //    select.jogador2 = j2;
+            //}
             
             if (MessageBox.Show("Yu Gi Oh?", "Atenção", MessageBoxButton.OKCancel) == MessageBoxResult.OK)
             {
